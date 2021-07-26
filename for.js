@@ -46,8 +46,8 @@ for ( let x = 1; x <= 5; x++ ) {
 }
 
 // 반삼각형
-for ( let x = 1; x <= 5; x++ ) { //세로
-    for ( let y = 1; y <= x ; y++ ){ //가로
+for ( let x = 1; x <= 5; x++ ) {        //세로
+    for ( let y = 1; y <= x ; y++ ){    //가로
         process.stdout.write("* ");
     }
 
